@@ -1,6 +1,6 @@
 # NFT_minter_
 
-# NFT Minter Website
+
 
 Welcome to the NFT Minter Website repository! This project is a web application built using React-Vite, Express.js, Multer, CORS, Node.js, HTML, CSS, JavaScript, and it integrates with the Starton service for smart contract development and API keys.
 
