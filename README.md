@@ -2,7 +2,7 @@
 
 # NFT Minter Website
 
-Welcome to the NFT Minter Website repository! This project is a web application built using React-Vite, Express.js, Multer, CORS, Node.js, HTML, CSS, JavaScript, and it integrates with the Stardust service for smart contract development and API keys.
+Welcome to the NFT Minter Website repository! This project is a web application built using React-Vite, Express.js, Multer, CORS, Node.js, HTML, CSS, JavaScript, and it integrates with the Starton service for smart contract development and API keys.
 
 ## Table of Contents
 
@@ -17,14 +17,14 @@ Welcome to the NFT Minter Website repository! This project is a web application 
 
 ## Introduction
 
-This project aims to provide a user-friendly interface for minting Non-Fungible Tokens (NFTs) by leveraging blockchain technology. It uses React-Vite for the front-end, Express.js for the back-end, and Stardust for smart contract interactions. With this NFT Minter, users can easily create and manage their own unique NFTs.
+This project aims to provide a user-friendly interface for minting Non-Fungible Tokens (NFTs) by leveraging blockchain technology. It uses React-Vite for the front-end, Express.js for the back-end, and Starton for smart contract interactions. With this NFT Minter, users can easily create and manage their own unique NFTs.
 
 ## Features
 
 - **User-friendly Interface**: The web application offers an intuitive interface for users to mint NFTs without technical expertise.
 - **File Upload**: Users can upload their image or media files to be associated with the NFT.
 - **Custom Metadata**: Users can add custom metadata and attributes to their NFTs.
-- **Stardust Integration**: Smart contracts for NFTs are deployed and managed using the Stardust service.
+- **Starton Integration**: Smart contracts for NFTs are deployed and managed using the Stardust service.
 - **Security**: The application includes CORS handling and Multer for secure file uploads.
 - **Responsive Design**: The website is designed to work seamlessly on various devices and screen sizes.
 
@@ -35,16 +35,16 @@ To get started with the NFT Minter Website, follow these steps:
 1. Clone this repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/nft-minter.git
+   git clone https://github.com/Asif12as/NFT_minter_.git
    ```
 
 2. Install the required dependencies for both the front-end and back-end:
 
    ```
-   cd nft-minter/client
+   cd NFTminterF/client
    npm install
 
-   cd ../server
+   cd ../api
    npm install
    ```
 
@@ -58,8 +58,8 @@ To get started with the NFT Minter Website, follow these steps:
    npm run dev
 
    # Start the back-end development server
-   cd ../server
-   npm run dev
+   cd ../api
+   npm start
    ```
 
 5. Open your browser and access the website at `http://localhost:3000`.
@@ -70,7 +70,7 @@ The project is structured as follows:
 
 - `client/`: Front-end codebase using React-Vite.
 - `server/`: Back-end codebase using Express.js.
-- `contracts/`: Smart contract code and configuration for Stardust.
+- `contracts/`: Smart contract code and configuration for Starton:
 
 ## Configuration
 
@@ -81,12 +81,12 @@ Before running the application, you need to configure some settings:
    Create a `.env` file in the `server/` directory and define the following variables:
 
    ```env
-   STARDUST_API_KEY=your-api-key
-   STARDUST_API_SECRET=your-api-secret
-   STARDUST_CONTRACT_ADDRESS=your-contract-address
+   STARTON_API_KEY=your-api-key
+   STARTON_API_SECRET=your-api-secret
+   STARTON_CONTRACT_ADDRESS=your-contract-address
    ```
 
-   Replace `your-api-key`, `your-api-secret`, and `your-contract-address` with your actual Stardust credentials and contract address.
+   Replace `your-api-key`, `your-api-secret`, and `your-contract-address` with your actual StarTON credentials and contract address.
 
 2. Make sure to configure other environment-specific settings like database connection details if applicable.
 
